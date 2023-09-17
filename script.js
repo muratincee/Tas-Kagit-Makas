@@ -1,10 +1,3 @@
-// Oyun bilgisayara karşı oynanacak
-// - 3 buton olsun. Oyuncu taş, kağıt veya makas seçsin
-// - Bilgisayar ise rastgele seçeneklerden birini seçsin
-// - Hangisi kazanırsa ekrana bilgi yazdıralım
-// - Skor sayısı tutulsun ve localstorage'da saklansın
-// - Math.floor(Math.random() * 3) kodu rastgele sayı üretmektedir. 0, 1 veya 2 döner
-
 const guestScore = document.querySelector('#guestScore');
 const pcScore = document.querySelector('#pcScore');
 const winner = document.querySelector('#winner');
